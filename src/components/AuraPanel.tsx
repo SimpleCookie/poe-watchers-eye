@@ -1,0 +1,79 @@
+type AuraPanelProps = {
+  dark: boolean
+  selectedAuras: string[]
+  selectedAuraSet: Set<string>
+  auraGroups: { offensive: string[]; defensive: string[] }
+  onToggleAura: (name: string) => void
+  onClearAuras: () => void
+}
+
+export default function AuraPanel({
+  dark,
+  selectedAuras,
+  selectedAuraSet,
+  auraGroups,
+  onToggleAura,
+  onClearAuras,
+}: AuraPanelProps) {
+  return (
+    <section
+      className={`rounded-2xl border p-5 ${dark ? 'bg-zinc-900 border-zinc-800' : 'bg-white border-stone-200 shadow-sm'
+        }`}
+    >
+      <div className="flex items-center justify-between mb-4">
+        <span
+          className={`text-[11px] font-bold uppercase tracking-widest ${dark ? 'text-zinc-500' : 'text-stone-600'
+            }`}
+        >
+          Auras
+        </span>
+        {selectedAuras.length > 0 && (
+          <button
+            onClick={onClearAuras}
+            className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${dark
+                ? 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
+                : 'border-stone-300 text-stone-600 hover:border-stone-500 hover:text-stone-800'
+              }`}
+          >
+            Clear
+          </button>
+        )}
+      </div>
+
+      <div className="space-y-3">
+        {(['offensive', 'defensive'] as const).map((type) => (
+          <div key={type}>
+            <p
+              className={`text-[10px] font-semibold uppercase tracking-widest mb-2 ${dark ? 'text-zinc-400' : 'text-stone-700'
+                }`}
+            >
+              {type === 'offensive' ? '⚔ Offensive' : '🛡 Defensive'}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {auraGroups[type].map((aura) => {
+                const selected = selectedAuraSet.has(aura)
+                return (
+                  <button
+                    key={aura}
+                    onClick={() => onToggleAura(aura)}
+                    aria-pressed={selected}
+                    className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all duration-150 ${selected
+                        ? dark
+                          ? 'bg-amber-500/15 border-amber-400/80 text-amber-300 shadow-[0_0_14px_rgba(251,191,36,0.18)]'
+                          : 'bg-amber-100 border-amber-500 text-amber-800 shadow-[0_0_14px_rgba(251,191,36,0.15)]'
+                        : dark
+                          ? 'bg-zinc-800 border-zinc-700 text-zinc-300 hover:border-zinc-500 hover:text-zinc-100'
+                          : 'bg-white border-stone-300 text-stone-800 hover:border-stone-500 hover:bg-stone-50'
+                      }`}
+                  >
+                    {aura}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
