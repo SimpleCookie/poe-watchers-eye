@@ -51,13 +51,13 @@ export default function ModsPanel({
             {selectedCount > 0 && (
               <Button
                 dark={dark}
-                variant="outline"
+                variant="primary"
                 size="sm"
                 onClick={onOpenTradeSearch}
                 disabled={!canOpenTradeSearch}
                 title={canOpenTradeSearch ? 'Open Path of Exile trade search' : 'No trade stat mapping for selected mods'}
               >
-                Trade
+                Open Trade
               </Button>
             )}
             {hiddenMods.length > 0 && (

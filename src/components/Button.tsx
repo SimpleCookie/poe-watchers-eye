@@ -1,6 +1,6 @@
 import type { ButtonHTMLAttributes, ReactNode } from 'react'
 
-type ButtonVariant = 'outline' | 'ghost' | 'icon'
+type ButtonVariant = 'primary' | 'outline' | 'ghost' | 'icon'
 type ButtonSize = 'xs' | 'sm' | 'icon'
 type ButtonRounded = 'pill' | 'round' | 'soft'
 
@@ -19,11 +19,13 @@ function joinClasses(...classes: Array<string | undefined>) {
 
 const variantClasses: Record<'dark' | 'light', Record<ButtonVariant, string>> = {
   dark: {
+    primary: 'bg-amber-500/20 border-amber-400/70 text-amber-300 hover:bg-amber-500/30 hover:border-amber-400 hover:text-amber-200 shadow-[0_0_10px_rgba(251,191,36,0.2)] hover:shadow-[0_0_16px_rgba(251,191,36,0.35)] transition-all',
     outline: 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200 transition-colors',
     ghost: 'border-transparent text-zinc-500 hover:text-zinc-300 transition-colors',
     icon: 'bg-zinc-800 border-zinc-700 text-amber-300 hover:bg-zinc-700 transition-all',
   },
   light: {
+    primary: 'bg-amber-100 border-amber-500 text-amber-800 hover:bg-amber-200 hover:border-amber-600 shadow-[0_0_10px_rgba(251,191,36,0.15)] hover:shadow-[0_0_16px_rgba(251,191,36,0.25)] transition-all',
     outline: 'border-stone-300 text-stone-600 hover:border-stone-500 hover:text-stone-800 transition-colors',
     ghost: 'border-transparent text-stone-500 hover:text-stone-700 transition-colors',
     icon: 'bg-white border-stone-300 text-stone-500 hover:bg-stone-50 shadow-sm transition-all',
