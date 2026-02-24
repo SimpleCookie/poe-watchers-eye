@@ -61,7 +61,7 @@ export default function Button({
     <button
       type={type}
       className={joinClasses(
-        'inline-flex items-center justify-center gap-1 border shrink-0',
+        'inline-flex items-center justify-center gap-1 border shrink-0 enabled:hover:cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed',
         sizeClass,
         roundedClass,
         variantClass,

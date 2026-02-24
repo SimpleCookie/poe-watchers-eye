@@ -649,7 +649,7 @@
   {
     "aura": "Haste",
     "auraType": "offensive",
-    "mod": "You gain Onslaught for 4 seconds on Kill while affected by Haste",
+    "mod": "You gain Onslaught for # seconds on Kill while affected by Haste",
     "ranges": [
       {
         "min": 4,
@@ -993,7 +993,7 @@
   {
     "aura": "Pride",
     "auraType": "offensive",
-    "mod": "25% chance to Impale Enemies on Hit with Attacks while using Pride",
+    "mod": "#% chance to Impale Enemies on Hit with Attacks while using Pride",
     "ranges": [
       {
         "min": 25,
@@ -1007,7 +1007,7 @@
   {
     "aura": "Pride",
     "auraType": "offensive",
-    "mod": "Impales you inflict last 2 additional Hits while using Pride",
+    "mod": "Impales you inflict last # additional Hits while using Pride",
     "ranges": [
       {
         "min": 2,
@@ -1154,7 +1154,7 @@
   {
     "aura": "Zealotry",
     "auraType": "offensive",
-    "mod": "30% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry",
+    "mod": "#% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry",
     "ranges": [
       {
         "min": 30,

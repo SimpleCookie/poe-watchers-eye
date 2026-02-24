@@ -55,7 +55,7 @@ export default function AuraPanel({
                     key={aura}
                     onClick={() => onToggleAura(aura)}
                     aria-pressed={selected}
-                    className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all duration-150 ${selected
+                    className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-all duration-150 hover:cursor-pointer ${selected
                         ? dark
                           ? 'bg-amber-500/15 border-amber-400/80 text-amber-300 shadow-[0_0_14px_rgba(251,191,36,0.18)]'
                           : 'bg-amber-100 border-amber-500 text-amber-800 shadow-[0_0_14px_rgba(251,191,36,0.15)]'

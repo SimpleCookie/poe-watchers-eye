@@ -3,11 +3,20 @@ import './App.css'
 import AuraPanel from './components/AuraPanel'
 import Header from './components/Header'
 import ModsPanel from './components/ModsPanel'
+import watcherEyeTradeStatMapData from './data/watcher-eye-trade-stat-map.json'
 import { watcherEyeMods } from './data/watcherEyeData'
 import { useAuraGroups } from './hooks/useAuraGroups'
 import { useVisibleMods } from './hooks/useVisibleMods'
 import type { WatcherEyeMod } from './types/watcherEye'
 import { getModId } from './utils/modFormat'
+import { buildTradeSearchUrl } from './utils/tradeSearch'
+
+type TradeStatMapEntry = {
+  mod: string
+  id: string
+}
+
+const watcherEyeTradeStatMap = watcherEyeTradeStatMapData as TradeStatMapEntry[]
 
 function App() {
   const [dark, setDark] = useState(true)
@@ -26,6 +35,14 @@ function App() {
   const selectedAuraSet = useMemo(() => new Set(selectedAuras), [selectedAuras])
   const hiddenModSet = useMemo(() => new Set(hiddenMods), [hiddenMods])
   const selectedModSet = useMemo(() => new Set(selectedMods), [selectedMods])
+  const modById = useMemo(
+    () => new Map(watcherEyeMods.map((mod) => [getModId(mod), mod])),
+    [],
+  )
+  const tradeStatIdByModText = useMemo(
+    () => new Map(watcherEyeTradeStatMap.map((entry) => [entry.mod, entry.id])),
+    [],
+  )
 
   const visibleMods = useVisibleMods({
     mods: watcherEyeMods,
@@ -34,6 +51,22 @@ function App() {
     hiddenModSet,
     selectedModSet,
   })
+
+  const selectedModEntries = useMemo(
+    () => selectedMods.map((id) => modById.get(id)).filter((mod): mod is WatcherEyeMod => Boolean(mod)),
+    [selectedMods, modById],
+  )
+
+  const selectedTradeStatIds = useMemo(
+    () =>
+      [...new Set(selectedModEntries.map((mod) => tradeStatIdByModText.get(mod.mod)).filter((id): id is string => Boolean(id)))],
+    [selectedModEntries, tradeStatIdByModText],
+  )
+
+  const tradeSearchUrl = useMemo(
+    () => (selectedTradeStatIds.length > 0 ? buildTradeSearchUrl(selectedTradeStatIds) : null),
+    [selectedTradeStatIds],
+  )
 
   function toggleAura(name: string) {
     setSelectedAuras((prev) =>
@@ -63,6 +96,11 @@ function App() {
     await navigator.clipboard.writeText(m.mod)
     setCopiedModId(id)
     setTimeout(() => setCopiedModId(null), 1500)
+  }
+
+  function openTradeSearch() {
+    if (!tradeSearchUrl) return
+    window.open(tradeSearchUrl, '_blank', 'noopener,noreferrer')
   }
 
   const selectedCount = selectedMods.length
@@ -99,6 +137,8 @@ function App() {
           onHideMod={hideMod}
           onCopyMod={copyMod}
           onUnhideMod={unhideMod}
+          onOpenTradeSearch={openTradeSearch}
+          canOpenTradeSearch={Boolean(tradeSearchUrl)}
         />
       </main>
     </div>

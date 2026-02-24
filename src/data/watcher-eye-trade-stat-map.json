@@ -1,0 +1,350 @@
+[
+  {
+    "mod": "#% additional Physical Damage Reduction while affected by Determination",
+    "id": "explicit.stat_1873457881"
+  },
+  {
+    "mod": "+#% Chance to Block Attack Damage while affected by Determination",
+    "id": "explicit.stat_3692646597"
+  },
+  {
+    "mod": "Unaffected by Vulnerability while affected by Determination",
+    "id": "explicit.stat_3207781478"
+  },
+  {
+    "mod": "You take #% reduced Extra Damage from Critical Strikes while affected by Determination",
+    "id": "explicit.stat_68410701"
+  },
+  {
+    "mod": "#% reduced Reflected Physical Damage taken while affected by Determination",
+    "id": "explicit.stat_2457540491"
+  },
+  {
+    "mod": "+# to Armour while affected by Determination",
+    "id": "explicit.stat_3742808908"
+  },
+  {
+    "mod": "+#% chance to Evade Attack Hits while affected by Grace",
+    "id": "explicit.stat_969576725"
+  },
+  {
+    "mod": "+#% chance to Suppress Spell Damage while affected by Grace",
+    "id": "explicit.stat_4071658793"
+  },
+  {
+    "mod": "Unaffected by Enfeeble while affected by Grace",
+    "id": "explicit.stat_2365917222"
+  },
+  {
+    "mod": "#% increased Movement Speed while affected by Grace",
+    "id": "explicit.stat_3329402420"
+  },
+  {
+    "mod": "#% chance to Blind Enemies which Hit you while affected by Grace",
+    "id": "explicit.stat_2548097895"
+  },
+  {
+    "mod": "Regenerate #% of Energy Shield per Second while affected by Discipline",
+    "id": "explicit.stat_991194404"
+  },
+  {
+    "mod": "+#% Chance to Block Spell Damage while affected by Discipline",
+    "id": "explicit.stat_1313498929"
+  },
+  {
+    "mod": "#% faster start of Energy Shield Recharge while affected by Discipline",
+    "id": "explicit.stat_1016185292"
+  },
+  {
+    "mod": "Gain # Energy Shield per Enemy Hit while affected by Discipline",
+    "id": "explicit.stat_3765507527"
+  },
+  {
+    "mod": "#% increased Energy Shield Recovery Rate while affected by Discipline",
+    "id": "explicit.stat_80470845"
+  },
+  {
+    "mod": "Damage Penetrates #% Lightning Resistance while affected by Wrath",
+    "id": "explicit.stat_1077131949"
+  },
+  {
+    "mod": "#% of Lightning Damage is Leeched as Energy Shield while affected by Wrath",
+    "id": "explicit.stat_121436064"
+  },
+  {
+    "mod": "Gain #% of Physical Damage as Extra Lightning Damage while affected by Wrath",
+    "id": "explicit.stat_2255914633"
+  },
+  {
+    "mod": "#% of Physical Damage Converted to Lightning Damage while affected by Wrath",
+    "id": "explicit.stat_2106756686"
+  },
+  {
+    "mod": "#% increased Lightning Damage while affected by Wrath",
+    "id": "explicit.stat_418293304"
+  },
+  {
+    "mod": "#% increased Critical Strike Chance while affected by Wrath",
+    "id": "explicit.stat_3357049845"
+  },
+  {
+    "mod": "Damage Penetrates #% Fire Resistance while affected by Anger",
+    "id": "explicit.stat_3111519953"
+  },
+  {
+    "mod": "#% of Fire Damage Leeched as Life while affected by Anger",
+    "id": "explicit.stat_2312747856"
+  },
+  {
+    "mod": "Gain #% of Physical Damage as Extra Fire Damage while affected by Anger",
+    "id": "explicit.stat_4245204226"
+  },
+  {
+    "mod": "#% of Physical Damage Converted to Fire Damage while affected by Anger",
+    "id": "explicit.stat_3624529132"
+  },
+  {
+    "mod": "#% increased Fire Damage while affected by Anger",
+    "id": "explicit.stat_3337107517"
+  },
+  {
+    "mod": "+#% to Critical Strike Multiplier while affected by Anger",
+    "id": "explicit.stat_3627458291"
+  },
+  {
+    "mod": "Damage Penetrates #% Cold Resistance while affected by Hatred",
+    "id": "explicit.stat_1222888897"
+  },
+  {
+    "mod": "+#% to Critical Strike Chance while affected by Hatred",
+    "id": "explicit.stat_2753985507"
+  },
+  {
+    "mod": "Adds # to # Cold Damage while affected by Hatred",
+    "id": "explicit.stat_2643562209"
+  },
+  {
+    "mod": "#% of Physical Damage Converted to Cold Damage while affected by Hatred",
+    "id": "explicit.stat_664849247"
+  },
+  {
+    "mod": "#% increased Cold Damage while affected by Hatred",
+    "id": "explicit.stat_1413864591"
+  },
+  {
+    "mod": "#% of Damage leeched as Life while affected by Vitality",
+    "id": "explicit.stat_3656959867"
+  },
+  {
+    "mod": "Regenerate #% of Life per second while affected by Vitality",
+    "id": "explicit.stat_1165583295"
+  },
+  {
+    "mod": "#% increased Life Recovery Rate while affected by Vitality",
+    "id": "explicit.stat_2690790844"
+  },
+  {
+    "mod": "Gain # Life per Enemy Hit while affected by Vitality",
+    "id": "explicit.stat_4259701244"
+  },
+  {
+    "mod": "#% increased Life Recovery from Flasks while affected by Vitality",
+    "id": "explicit.stat_362838683"
+  },
+  {
+    "mod": "Non-Channelling Skills have +# to Total Mana Cost while affected by Clarity",
+    "id": "explicit.stat_1853636813"
+  },
+  {
+    "mod": "#% of Damage taken from Mana before Life while affected by Clarity",
+    "id": "explicit.stat_2383304564"
+  },
+  {
+    "mod": "#% chance to Recover 10% of Mana when you use a Skill while affected by Clarity",
+    "id": "explicit.stat_1699077932"
+  },
+  {
+    "mod": "Gain #% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity",
+    "id": "explicit.stat_2831391506"
+  },
+  {
+    "mod": "#% increased Mana Recovery Rate while affected by Clarity",
+    "id": "explicit.stat_556659145"
+  },
+  {
+    "mod": "#% of Damage taken while affected by Clarity Recouped as Mana",
+    "id": "explicit.stat_380220671"
+  },
+  {
+    "mod": "You gain Onslaught for # seconds on Kill while affected by Haste",
+    "id": "explicit.stat_1424006185"
+  },
+  {
+    "mod": "You have Phasing while affected by Haste",
+    "id": "explicit.stat_1346311588"
+  },
+  {
+    "mod": "Unaffected by Temporal Chains while affected by Haste",
+    "id": "explicit.stat_2806391472"
+  },
+  {
+    "mod": "Debuffs on you expire #% faster while affected by Haste",
+    "id": "explicit.stat_207635700"
+  },
+  {
+    "mod": "#% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste",
+    "id": "explicit.stat_3332055899"
+  },
+  {
+    "mod": "Immune to Ignite while affected by Purity of Fire",
+    "id": "explicit.stat_371612541"
+  },
+  {
+    "mod": "Unaffected by Burning Ground while affected by Purity of Fire",
+    "id": "explicit.stat_3308185931"
+  },
+  {
+    "mod": "Unaffected by Flammability while affected by Purity of Fire",
+    "id": "explicit.stat_1173690938"
+  },
+  {
+    "mod": "#% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire",
+    "id": "explicit.stat_1723738042"
+  },
+  {
+    "mod": "Immune to Freeze while affected by Purity of Ice",
+    "id": "explicit.stat_2720072724"
+  },
+  {
+    "mod": "Unaffected by Chilled Ground while affected by Purity of Ice",
+    "id": "explicit.stat_2647344903"
+  },
+  {
+    "mod": "Unaffected by Frostbite while affected by Purity of Ice",
+    "id": "explicit.stat_4012281889"
+  },
+  {
+    "mod": "#% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice",
+    "id": "explicit.stat_2189467271"
+  },
+  {
+    "mod": "Immune to Shock while affected by Purity of Lightning",
+    "id": "explicit.stat_281949611"
+  },
+  {
+    "mod": "Unaffected by Shocked Ground while affected by Purity of Lightning",
+    "id": "explicit.stat_2567659895"
+  },
+  {
+    "mod": "Unaffected by Conductivity while affected by Purity of Lightning",
+    "id": "explicit.stat_1567542124"
+  },
+  {
+    "mod": "#% of Fire and Cold Damage taken as Lightning Damage while affected by Purity of Lightning",
+    "id": "explicit.stat_3953667743"
+  },
+  {
+    "mod": "Unaffected by Elemental Weakness while affected by Purity of Elements",
+    "id": "explicit.stat_3223142064"
+  },
+  {
+    "mod": "#% reduced Reflected Elemental Damage taken while affected by Purity of Elements",
+    "id": "explicit.stat_65331133"
+  },
+  {
+    "mod": "+#% to Chaos Resistance while affected by Purity of Elements",
+    "id": "explicit.stat_1138813382"
+  },
+  {
+    "mod": "+#% to all maximum Elemental Resistances while affected by Purity of Elements",
+    "id": "explicit.stat_3234824465"
+  },
+  {
+    "mod": "+#% to Critical Strike Multiplier while affected by Precision",
+    "id": "explicit.stat_1817023621"
+  },
+  {
+    "mod": "#% increased Attack Damage while affected by Precision",
+    "id": "explicit.stat_2048747572"
+  },
+  {
+    "mod": "Gain a Flask Charge when you deal a Critical Strike while affected by Precision",
+    "id": "explicit.stat_3772841281"
+  },
+  {
+    "mod": "#% increased Attack Speed while affected by Precision",
+    "id": "explicit.stat_3375743050"
+  },
+  {
+    "mod": "Cannot be Blinded while affected by Precision",
+    "id": "explicit.stat_1653848515"
+  },
+  {
+    "mod": "#% chance to deal Double Damage while using Pride",
+    "id": "explicit.stat_3371719014"
+  },
+  {
+    "mod": "Your Hits Intimidate Enemies for 4 seconds while you are using Pride",
+    "id": "explicit.stat_3772848194"
+  },
+  {
+    "mod": "#% increased Physical Damage while using Pride",
+    "id": "explicit.stat_576528026"
+  },
+  {
+    "mod": "#% chance to Impale Enemies on Hit with Attacks while using Pride",
+    "id": "explicit.stat_4173751044"
+  },
+  {
+    "mod": "Impales you inflict last # additional Hits while using Pride",
+    "id": "explicit.stat_1011863394"
+  },
+  {
+    "mod": "#% increased Recovery rate of Life and Energy Shield while affected by Malevolence",
+    "id": "explicit.stat_3643449791"
+  },
+  {
+    "mod": "Unaffected by Poison while affected by Malevolence",
+    "id": "explicit.stat_34059570"
+  },
+  {
+    "mod": "Unaffected by Bleeding while affected by Malevolence",
+    "id": "explicit.stat_4104891138"
+  },
+  {
+    "mod": "Damaging Ailments you inflict deal Damage #% faster while affected by Malevolence",
+    "id": "explicit.stat_3468843137"
+  },
+  {
+    "mod": "+#% to Damage over Time Multiplier while affected by Malevolence",
+    "id": "explicit.stat_2736708072"
+  },
+  {
+    "mod": "Critical Strikes Penetrate #% of Enemy Elemental Resistances while affected by Zealotry",
+    "id": "explicit.stat_2091518682"
+  },
+  {
+    "mod": "#% increased Cast Speed while affected by Zealotry",
+    "id": "explicit.stat_2444534954"
+  },
+  {
+    "mod": "Effects of Consecrated Ground you create while affected by Zealotry Linger for # seconds",
+    "id": "explicit.stat_2163419452"
+  },
+  {
+    "mod": "Consecrated Ground you create while affected by Zealotry causes enemies to take #% increased Damage",
+    "id": "explicit.stat_2434030180"
+  },
+  {
+    "mod": "Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry",
+    "id": "explicit.stat_1919069577"
+  },
+  {
+    "mod": "#% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry",
+    "id": "explicit.stat_2731416566"
+  },
+  {
+    "mod": "#% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry",
+    "id": "explicit.stat_214835567"
+  }
+]

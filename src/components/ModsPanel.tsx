@@ -20,6 +20,8 @@ type ModsPanelProps = {
   onHideMod: (mod: WatcherEyeMod) => void
   onCopyMod: (mod: WatcherEyeMod) => void
   onUnhideMod: (id: string) => void
+  onOpenTradeSearch: () => void
+  canOpenTradeSearch: boolean
 }
 
 export default function ModsPanel({
@@ -36,6 +38,8 @@ export default function ModsPanel({
   onHideMod,
   onCopyMod,
   onUnhideMod,
+  onOpenTradeSearch,
+  canOpenTradeSearch,
 }: ModsPanelProps) {
   return (
     <PanelCard dark={dark}>
@@ -44,21 +48,33 @@ export default function ModsPanel({
         title="Mods"
         rightSlot={
           <div className="flex items-center gap-3">
-          {hiddenMods.length > 0 && (
-            <Button
-              dark={dark}
-              variant="ghost"
-              size="sm"
-              onClick={onToggleShowHiddenMods}
-            >
-              <span>{showHiddenMods ? '▾' : '▸'}</span>
-              Hidden ({hiddenMods.length})
-            </Button>
-          )}
-          <div className={`text-xs ${dark ? 'text-zinc-600' : 'text-stone-500'}`}>
-            {visibleCount} shown
-            {selectedCount > 0 && <span className="ml-2 font-semibold text-amber-400">· {selectedCount} pinned</span>}
-          </div>
+            {selectedCount > 0 && (
+              <Button
+                dark={dark}
+                variant="outline"
+                size="sm"
+                onClick={onOpenTradeSearch}
+                disabled={!canOpenTradeSearch}
+                title={canOpenTradeSearch ? 'Open Path of Exile trade search' : 'No trade stat mapping for selected mods'}
+              >
+                Trade
+              </Button>
+            )}
+            {hiddenMods.length > 0 && (
+              <Button
+                dark={dark}
+                variant="ghost"
+                size="sm"
+                onClick={onToggleShowHiddenMods}
+              >
+                <span>{showHiddenMods ? '▾' : '▸'}</span>
+                Hidden ({hiddenMods.length})
+              </Button>
+            )}
+            <div className={`text-xs ${dark ? 'text-zinc-600' : 'text-stone-500'}`}>
+              {visibleCount} shown
+              {selectedCount > 0 && <span className="ml-2 font-semibold text-amber-400">· {selectedCount} pinned</span>}
+            </div>
           </div>
         }
       />
