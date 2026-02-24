@@ -1,15 +1,30 @@
 import { TAG_COLORS_DARK, TAG_COLORS_LIGHT } from '../constants/tagColors'
+import type { ModTradeType } from '../types/tradeGroup'
 import type { WatcherEyeMod } from '../types/watcherEye'
 import { formatRanges } from '../utils/modFormat'
+
+const TRADE_TYPE_BADGE_DARK: Record<ModTradeType, string> = {
+  and:   'border-blue-600/60 bg-blue-900/40 text-blue-300',
+  count: 'border-amber-600/60 bg-amber-900/40 text-amber-300',
+  not:   'border-red-600/60 bg-red-900/40 text-red-300',
+}
+
+const TRADE_TYPE_BADGE_LIGHT: Record<ModTradeType, string> = {
+  and:   'border-blue-400 bg-blue-100 text-blue-700',
+  count: 'border-amber-400 bg-amber-100 text-amber-700',
+  not:   'border-red-400 bg-red-100 text-red-700',
+}
 
 type ModCardProps = {
   dark: boolean
   modEntry: WatcherEyeMod
   isSelected: boolean
   isCopied: boolean
+  tradeType?: ModTradeType
   onToggleMod: (mod: WatcherEyeMod) => void
   onHideMod: (mod: WatcherEyeMod) => void
   onCopyMod: (mod: WatcherEyeMod) => void
+  onCycleTradeType?: (mod: WatcherEyeMod) => void
 }
 
 export default function ModCard({
@@ -17,9 +32,11 @@ export default function ModCard({
   modEntry,
   isSelected,
   isCopied,
+  tradeType,
   onToggleMod,
   onHideMod,
   onCopyMod,
+  onCycleTradeType,
 }: ModCardProps) {
   return (
     <li
@@ -59,6 +76,19 @@ export default function ModCard({
               <span className={`text-[11px] font-mono ${dark ? 'text-zinc-500' : 'text-stone-500'}`}>
                 {formatRanges(modEntry.ranges)}
               </span>
+            )}
+
+            {isSelected && tradeType && (
+              <button
+                type="button"
+                title="Click to cycle: AND → COUNT → NOT"
+                onClick={(e) => { e.stopPropagation(); onCycleTradeType?.(modEntry) }}
+                className={`ml-auto shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full border hover:cursor-pointer hover:opacity-80 transition-opacity ${
+                  dark ? TRADE_TYPE_BADGE_DARK[tradeType] : TRADE_TYPE_BADGE_LIGHT[tradeType]
+                }`}
+              >
+                {tradeType.toUpperCase()}
+              </button>
             )}
           </div>
 

@@ -3,6 +3,7 @@ import ModCard from './ModCard'
 import HiddenModsList from './HiddenModsList'
 import PanelCard from './PanelCard'
 import PanelHeader from './PanelHeader'
+import type { ModTradeType } from '../types/tradeGroup'
 import type { WatcherEyeMod } from '../types/watcherEye'
 import { getModId } from '../utils/modFormat'
 
@@ -15,13 +16,15 @@ type ModsPanelProps = {
   copiedModId: string | null
   selectedCount: number
   visibleCount: number
+  modTradeTypes: Record<string, ModTradeType>
+  canOpenTrade: boolean
   onToggleShowHiddenMods: () => void
   onToggleMod: (mod: WatcherEyeMod) => void
   onHideMod: (mod: WatcherEyeMod) => void
   onCopyMod: (mod: WatcherEyeMod) => void
   onUnhideMod: (id: string) => void
-  onOpenTradeSearch: () => void
-  canOpenTradeSearch: boolean
+  onCycleModTradeType: (mod: WatcherEyeMod) => void
+  onOpenTrade: () => void
 }
 
 export default function ModsPanel({
@@ -33,13 +36,15 @@ export default function ModsPanel({
   copiedModId,
   selectedCount,
   visibleCount,
+  modTradeTypes,
+  canOpenTrade,
   onToggleShowHiddenMods,
   onToggleMod,
   onHideMod,
   onCopyMod,
   onUnhideMod,
-  onOpenTradeSearch,
-  canOpenTradeSearch,
+  onCycleModTradeType,
+  onOpenTrade,
 }: ModsPanelProps) {
   return (
     <PanelCard dark={dark}>
@@ -53,9 +58,9 @@ export default function ModsPanel({
                 dark={dark}
                 variant="primary"
                 size="sm"
-                onClick={onOpenTradeSearch}
-                disabled={!canOpenTradeSearch}
-                title={canOpenTradeSearch ? 'Open Path of Exile trade search' : 'No trade stat mapping for selected mods'}
+                onClick={onOpenTrade}
+                disabled={!canOpenTrade}
+                title={canOpenTrade ? 'Open Path of Exile trade search' : 'No trade stats mapped for selected mods'}
               >
                 Open Trade
               </Button>
@@ -89,9 +94,11 @@ export default function ModsPanel({
               modEntry={modEntry}
               isSelected={selectedModSet.has(modId)}
               isCopied={copiedModId === modId}
+              tradeType={selectedModSet.has(modId) ? modTradeTypes[modId] : undefined}
               onToggleMod={onToggleMod}
               onHideMod={onHideMod}
               onCopyMod={onCopyMod}
+              onCycleTradeType={onCycleModTradeType}
             />
           )
         })}
