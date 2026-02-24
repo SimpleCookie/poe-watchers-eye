@@ -11,7 +11,7 @@ type TradeQueryPayload = {
     name?: string
     type?: string
     stats: Array<{
-      type: 'weight' | 'and'
+      type: 'weight' | 'and' | 'count'
       filters: TradeFilter[]
       disabled?: boolean
       value?: {
