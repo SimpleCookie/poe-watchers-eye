@@ -1,6 +1,7 @@
 [
   {
     "aura": "Determination",
+    "auraType": "defensive",
     "mod": "#% additional Physical Damage Reduction while affected by Determination",
     "ranges": [
       {
@@ -14,6 +15,7 @@
   },
   {
     "aura": "Determination",
+    "auraType": "defensive",
     "mod": "+#% Chance to Block Attack Damage while affected by Determination",
     "ranges": [
       {
@@ -25,6 +27,7 @@
   },
   {
     "aura": "Determination",
+    "auraType": "defensive",
     "mod": "Unaffected by Vulnerability while affected by Determination",
     "ranges": [],
     "tags": [
@@ -34,6 +37,7 @@
   },
   {
     "aura": "Determination",
+    "auraType": "defensive",
     "mod": "You take #% reduced Extra Damage from Critical Strikes while affected by Determination",
     "ranges": [
       {
@@ -47,6 +51,7 @@
   },
   {
     "aura": "Determination",
+    "auraType": "defensive",
     "mod": "#% reduced Reflected Physical Damage taken while affected by Determination",
     "ranges": [
       {
@@ -60,6 +65,7 @@
   },
   {
     "aura": "Determination",
+    "auraType": "defensive",
     "mod": "+# to Armour while affected by Determination",
     "ranges": [
       {
@@ -74,6 +80,7 @@
   },
   {
     "aura": "Grace",
+    "auraType": "defensive",
     "mod": "+#% chance to Evade Attack Hits while affected by Grace",
     "ranges": [
       {
@@ -88,6 +95,7 @@
   },
   {
     "aura": "Grace",
+    "auraType": "defensive",
     "mod": "+#% chance to Suppress Spell Damage while affected by Grace",
     "ranges": [
       {
@@ -99,6 +107,7 @@
   },
   {
     "aura": "Grace",
+    "auraType": "defensive",
     "mod": "Unaffected by Enfeeble while affected by Grace",
     "ranges": [],
     "tags": [
@@ -108,6 +117,7 @@
   },
   {
     "aura": "Grace",
+    "auraType": "defensive",
     "mod": "#% increased Movement Speed while affected by Grace",
     "ranges": [
       {
@@ -121,6 +131,7 @@
   },
   {
     "aura": "Grace",
+    "auraType": "defensive",
     "mod": "#% chance to Blind Enemies which Hit you while affected by Grace",
     "ranges": [
       {
@@ -132,6 +143,7 @@
   },
   {
     "aura": "Discipline",
+    "auraType": "defensive",
     "mod": "Regenerate #% of Energy Shield per Second while affected by Discipline",
     "ranges": [
       {
@@ -146,6 +158,7 @@
   },
   {
     "aura": "Discipline",
+    "auraType": "defensive",
     "mod": "+#% Chance to Block Spell Damage while affected by Discipline",
     "ranges": [
       {
@@ -157,6 +170,7 @@
   },
   {
     "aura": "Discipline",
+    "auraType": "defensive",
     "mod": "#% faster start of Energy Shield Recharge while affected by Discipline",
     "ranges": [
       {
@@ -171,6 +185,7 @@
   },
   {
     "aura": "Discipline",
+    "auraType": "defensive",
     "mod": "Gain # Energy Shield per Enemy Hit while affected by Discipline",
     "ranges": [
       {
@@ -185,6 +200,7 @@
   },
   {
     "aura": "Discipline",
+    "auraType": "defensive",
     "mod": "#% increased Energy Shield Recovery Rate while affected by Discipline",
     "ranges": [
       {
@@ -199,6 +215,7 @@
   },
   {
     "aura": "Wrath",
+    "auraType": "offensive",
     "mod": "Damage Penetrates #% Lightning Resistance while affected by Wrath",
     "ranges": [
       {
@@ -214,6 +231,7 @@
   },
   {
     "aura": "Wrath",
+    "auraType": "offensive",
     "mod": "#% of Lightning Damage is Leeched as Energy Shield while affected by Wrath",
     "ranges": [
       {
@@ -230,6 +248,7 @@
   },
   {
     "aura": "Wrath",
+    "auraType": "offensive",
     "mod": "Gain #% of Physical Damage as Extra Lightning Damage while affected by Wrath",
     "ranges": [
       {
@@ -246,6 +265,7 @@
   },
   {
     "aura": "Wrath",
+    "auraType": "offensive",
     "mod": "#% of Physical Damage Converted to Lightning Damage while affected by Wrath",
     "ranges": [
       {
@@ -262,6 +282,7 @@
   },
   {
     "aura": "Wrath",
+    "auraType": "offensive",
     "mod": "#% increased Lightning Damage while affected by Wrath",
     "ranges": [
       {
@@ -277,6 +298,7 @@
   },
   {
     "aura": "Wrath",
+    "auraType": "offensive",
     "mod": "#% increased Critical Strike Chance while affected by Wrath",
     "ranges": [
       {
@@ -290,6 +312,7 @@
   },
   {
     "aura": "Anger",
+    "auraType": "offensive",
     "mod": "Damage Penetrates #% Fire Resistance while affected by Anger",
     "ranges": [
       {
@@ -305,6 +328,7 @@
   },
   {
     "aura": "Anger",
+    "auraType": "offensive",
     "mod": "#% of Fire Damage Leeched as Life while affected by Anger",
     "ranges": [
       {
@@ -320,6 +344,7 @@
   },
   {
     "aura": "Anger",
+    "auraType": "offensive",
     "mod": "Gain #% of Physical Damage as Extra Fire Damage while affected by Anger",
     "ranges": [
       {
@@ -336,6 +361,7 @@
   },
   {
     "aura": "Anger",
+    "auraType": "offensive",
     "mod": "#% of Physical Damage Converted to Fire Damage while affected by Anger",
     "ranges": [
       {
@@ -352,6 +378,7 @@
   },
   {
     "aura": "Anger",
+    "auraType": "offensive",
     "mod": "#% increased Fire Damage while affected by Anger",
     "ranges": [
       {
@@ -367,6 +394,7 @@
   },
   {
     "aura": "Anger",
+    "auraType": "offensive",
     "mod": "+#% to Critical Strike Multiplier while affected by Anger",
     "ranges": [
       {
@@ -381,6 +409,7 @@
   },
   {
     "aura": "Hatred",
+    "auraType": "offensive",
     "mod": "Damage Penetrates #% Cold Resistance while affected by Hatred",
     "ranges": [
       {
@@ -396,6 +425,7 @@
   },
   {
     "aura": "Hatred",
+    "auraType": "offensive",
     "mod": "+#% to Critical Strike Chance while affected by Hatred",
     "ranges": [
       {
@@ -409,6 +439,7 @@
   },
   {
     "aura": "Hatred",
+    "auraType": "offensive",
     "mod": "Adds # to # Cold Damage while affected by Hatred",
     "ranges": [
       {
@@ -428,6 +459,7 @@
   },
   {
     "aura": "Hatred",
+    "auraType": "offensive",
     "mod": "#% of Physical Damage Converted to Cold Damage while affected by Hatred",
     "ranges": [
       {
@@ -444,6 +476,7 @@
   },
   {
     "aura": "Hatred",
+    "auraType": "offensive",
     "mod": "#% increased Cold Damage while affected by Hatred",
     "ranges": [
       {
@@ -459,6 +492,7 @@
   },
   {
     "aura": "Vitality",
+    "auraType": "defensive",
     "mod": "#% of Damage leeched as Life while affected by Vitality",
     "ranges": [
       {
@@ -472,6 +506,7 @@
   },
   {
     "aura": "Vitality",
+    "auraType": "defensive",
     "mod": "Regenerate #% of Life per second while affected by Vitality",
     "ranges": [
       {
@@ -485,6 +520,7 @@
   },
   {
     "aura": "Vitality",
+    "auraType": "defensive",
     "mod": "#% increased Life Recovery Rate while affected by Vitality",
     "ranges": [
       {
@@ -498,6 +534,7 @@
   },
   {
     "aura": "Vitality",
+    "auraType": "defensive",
     "mod": "Gain # Life per Enemy Hit while affected by Vitality",
     "ranges": [
       {
@@ -511,6 +548,7 @@
   },
   {
     "aura": "Vitality",
+    "auraType": "defensive",
     "mod": "#% increased Life Recovery from Flasks while affected by Vitality",
     "ranges": [
       {
@@ -524,6 +562,7 @@
   },
   {
     "aura": "Clarity",
+    "auraType": "defensive",
     "mod": "Non-Channelling Skills have +# to Total Mana Cost while affected by Clarity",
     "ranges": [
       {
@@ -537,6 +576,7 @@
   },
   {
     "aura": "Clarity",
+    "auraType": "defensive",
     "mod": "#% of Damage taken from Mana before Life while affected by Clarity",
     "ranges": [
       {
@@ -551,6 +591,7 @@
   },
   {
     "aura": "Clarity",
+    "auraType": "defensive",
     "mod": "#% chance to Recover 10% of Mana when you use a Skill while affected by Clarity",
     "ranges": [
       {
@@ -564,6 +605,7 @@
   },
   {
     "aura": "Clarity",
+    "auraType": "defensive",
     "mod": "Gain #% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity",
     "ranges": [
       {
@@ -578,6 +620,7 @@
   },
   {
     "aura": "Clarity",
+    "auraType": "defensive",
     "mod": "#% increased Mana Recovery Rate while affected by Clarity",
     "ranges": [
       {
@@ -591,6 +634,7 @@
   },
   {
     "aura": "Clarity",
+    "auraType": "defensive",
     "mod": "#% of Damage taken while affected by Clarity Recouped as Mana",
     "ranges": [
       {
@@ -604,6 +648,7 @@
   },
   {
     "aura": "Haste",
+    "auraType": "offensive",
     "mod": "You gain Onslaught for 4 seconds on Kill while affected by Haste",
     "ranges": [
       {
@@ -615,12 +660,14 @@
   },
   {
     "aura": "Haste",
+    "auraType": "offensive",
     "mod": "You have Phasing while affected by Haste",
     "ranges": [],
     "tags": []
   },
   {
     "aura": "Haste",
+    "auraType": "offensive",
     "mod": "Unaffected by Temporal Chains while affected by Haste",
     "ranges": [],
     "tags": [
@@ -630,6 +677,7 @@
   },
   {
     "aura": "Haste",
+    "auraType": "offensive",
     "mod": "Debuffs on you expire #% faster while affected by Haste",
     "ranges": [
       {
@@ -641,6 +689,7 @@
   },
   {
     "aura": "Haste",
+    "auraType": "offensive",
     "mod": "#% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste",
     "ranges": [
       {
@@ -652,6 +701,7 @@
   },
   {
     "aura": "Purity of Fire",
+    "auraType": "defensive",
     "mod": "Immune to Ignite while affected by Purity of Fire",
     "ranges": [],
     "tags": [
@@ -662,12 +712,14 @@
   },
   {
     "aura": "Purity of Fire",
+    "auraType": "defensive",
     "mod": "Unaffected by Burning Ground while affected by Purity of Fire",
     "ranges": [],
     "tags": []
   },
   {
     "aura": "Purity of Fire",
+    "auraType": "defensive",
     "mod": "Unaffected by Flammability while affected by Purity of Fire",
     "ranges": [],
     "tags": [
@@ -677,6 +729,7 @@
   },
   {
     "aura": "Purity of Fire",
+    "auraType": "defensive",
     "mod": "#% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire",
     "ranges": [
       {
@@ -693,6 +746,7 @@
   },
   {
     "aura": "Purity of Ice",
+    "auraType": "defensive",
     "mod": "Immune to Freeze while affected by Purity of Ice",
     "ranges": [],
     "tags": [
@@ -703,12 +757,14 @@
   },
   {
     "aura": "Purity of Ice",
+    "auraType": "defensive",
     "mod": "Unaffected by Chilled Ground while affected by Purity of Ice",
     "ranges": [],
     "tags": []
   },
   {
     "aura": "Purity of Ice",
+    "auraType": "defensive",
     "mod": "Unaffected by Frostbite while affected by Purity of Ice",
     "ranges": [],
     "tags": [
@@ -718,6 +774,7 @@
   },
   {
     "aura": "Purity of Ice",
+    "auraType": "defensive",
     "mod": "#% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice",
     "ranges": [
       {
@@ -734,6 +791,7 @@
   },
   {
     "aura": "Purity of Lightning",
+    "auraType": "defensive",
     "mod": "Immune to Shock while affected by Purity of Lightning",
     "ranges": [],
     "tags": [
@@ -744,12 +802,14 @@
   },
   {
     "aura": "Purity of Lightning",
+    "auraType": "defensive",
     "mod": "Unaffected by Shocked Ground while affected by Purity of Lightning",
     "ranges": [],
     "tags": []
   },
   {
     "aura": "Purity of Lightning",
+    "auraType": "defensive",
     "mod": "Unaffected by Conductivity while affected by Purity of Lightning",
     "ranges": [],
     "tags": [
@@ -759,6 +819,7 @@
   },
   {
     "aura": "Purity of Lightning",
+    "auraType": "defensive",
     "mod": "#% of Fire and Cold Damage taken as Lightning Damage while affected by Purity of Lightning",
     "ranges": [
       {
@@ -775,6 +836,7 @@
   },
   {
     "aura": "Purity of Elements",
+    "auraType": "defensive",
     "mod": "Unaffected by Elemental Weakness while affected by Purity of Elements",
     "ranges": [],
     "tags": [
@@ -784,6 +846,7 @@
   },
   {
     "aura": "Purity of Elements",
+    "auraType": "defensive",
     "mod": "#% reduced Reflected Elemental Damage taken while affected by Purity of Elements",
     "ranges": [
       {
@@ -797,6 +860,7 @@
   },
   {
     "aura": "Purity of Elements",
+    "auraType": "defensive",
     "mod": "+#% to Chaos Resistance while affected by Purity of Elements",
     "ranges": [
       {
@@ -811,6 +875,7 @@
   },
   {
     "aura": "Purity of Elements",
+    "auraType": "defensive",
     "mod": "+#% to all maximum Elemental Resistances while affected by Purity of Elements",
     "ranges": [
       {
@@ -825,6 +890,7 @@
   },
   {
     "aura": "Precision",
+    "auraType": "offensive",
     "mod": "+#% to Critical Strike Multiplier while affected by Precision",
     "ranges": [
       {
@@ -839,6 +905,7 @@
   },
   {
     "aura": "Precision",
+    "auraType": "offensive",
     "mod": "#% increased Attack Damage while affected by Precision",
     "ranges": [
       {
@@ -853,6 +920,7 @@
   },
   {
     "aura": "Precision",
+    "auraType": "offensive",
     "mod": "Gain a Flask Charge when you deal a Critical Strike while affected by Precision",
     "ranges": [],
     "tags": [
@@ -861,6 +929,7 @@
   },
   {
     "aura": "Precision",
+    "auraType": "offensive",
     "mod": "#% increased Attack Speed while affected by Precision",
     "ranges": [
       {
@@ -875,12 +944,14 @@
   },
   {
     "aura": "Precision",
+    "auraType": "offensive",
     "mod": "Cannot be Blinded while affected by Precision",
     "ranges": [],
     "tags": []
   },
   {
     "aura": "Pride",
+    "auraType": "offensive",
     "mod": "#% chance to deal Double Damage while using Pride",
     "ranges": [
       {
@@ -894,6 +965,7 @@
   },
   {
     "aura": "Pride",
+    "auraType": "offensive",
     "mod": "Your Hits Intimidate Enemies for 4 seconds while you are using Pride",
     "ranges": [
       {
@@ -905,6 +977,7 @@
   },
   {
     "aura": "Pride",
+    "auraType": "offensive",
     "mod": "#% increased Physical Damage while using Pride",
     "ranges": [
       {
@@ -919,6 +992,7 @@
   },
   {
     "aura": "Pride",
+    "auraType": "offensive",
     "mod": "25% chance to Impale Enemies on Hit with Attacks while using Pride",
     "ranges": [
       {
@@ -932,6 +1006,7 @@
   },
   {
     "aura": "Pride",
+    "auraType": "offensive",
     "mod": "Impales you inflict last 2 additional Hits while using Pride",
     "ranges": [
       {
@@ -945,6 +1020,7 @@
   },
   {
     "aura": "Malevolence",
+    "auraType": "offensive",
     "mod": "#% increased Recovery rate of Life and Energy Shield while affected by Malevolence",
     "ranges": [
       {
@@ -960,6 +1036,7 @@
   },
   {
     "aura": "Malevolence",
+    "auraType": "offensive",
     "mod": "Unaffected by Poison while affected by Malevolence",
     "ranges": [],
     "tags": [
@@ -969,6 +1046,7 @@
   },
   {
     "aura": "Malevolence",
+    "auraType": "offensive",
     "mod": "Unaffected by Bleeding while affected by Malevolence",
     "ranges": [],
     "tags": [
@@ -979,6 +1057,7 @@
   },
   {
     "aura": "Malevolence",
+    "auraType": "offensive",
     "mod": "Damaging Ailments you inflict deal Damage #% faster while affected by Malevolence",
     "ranges": [
       {
@@ -993,6 +1072,7 @@
   },
   {
     "aura": "Malevolence",
+    "auraType": "offensive",
     "mod": "+#% to Damage over Time Multiplier while affected by Malevolence",
     "ranges": [
       {
@@ -1006,6 +1086,7 @@
   },
   {
     "aura": "Zealotry",
+    "auraType": "offensive",
     "mod": "Critical Strikes Penetrate #% of Enemy Elemental Resistances while affected by Zealotry",
     "ranges": [
       {
@@ -1021,6 +1102,7 @@
   },
   {
     "aura": "Zealotry",
+    "auraType": "offensive",
     "mod": "#% increased Cast Speed while affected by Zealotry",
     "ranges": [
       {
@@ -1035,6 +1117,7 @@
   },
   {
     "aura": "Zealotry",
+    "auraType": "offensive",
     "mod": "Effects of Consecrated Ground you create while affected by Zealotry Linger for # seconds",
     "ranges": [
       {
@@ -1046,6 +1129,7 @@
   },
   {
     "aura": "Zealotry",
+    "auraType": "offensive",
     "mod": "Consecrated Ground you create while affected by Zealotry causes enemies to take #% increased Damage",
     "ranges": [
       {
@@ -1057,6 +1141,7 @@
   },
   {
     "aura": "Zealotry",
+    "auraType": "offensive",
     "mod": "Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry",
     "ranges": [
       {
@@ -1068,6 +1153,7 @@
   },
   {
     "aura": "Zealotry",
+    "auraType": "offensive",
     "mod": "30% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry",
     "ranges": [
       {
@@ -1082,6 +1168,7 @@
   },
   {
     "aura": "Zealotry",
+    "auraType": "offensive",
     "mod": "#% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry",
     "ranges": [
       {
