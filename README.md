@@ -4,7 +4,7 @@ A small Path of Exile helper app for browsing and filtering Watcher's Eye modifi
 
 ## Live Demo
 
-GitHub Pages: https://simplecookie.github.io/poe-watchers-eye/
+GitHub Pages: https://poe-watchers.devgroup.se/
 
 ## What this app does
 
