@@ -1,23 +1,25 @@
 type TradeFilter = {
-  disabled: boolean
+  disabled?: boolean
   id: string
-  value: {
+  value?: {
     weight: number
   }
 }
 
 type TradeQueryPayload = {
   query: {
+    name?: string
+    type?: string
     stats: Array<{
-      type: 'weight'
+      type: 'weight' | 'and'
       filters: TradeFilter[]
-      disabled: boolean
-      value: {
+      disabled?: boolean
+      value?: {
         min: number
       }
     }>
     status: {
-      option: 'online'
+      option: 'online' | 'securable'
     }
   }
   sort: {
@@ -38,16 +40,12 @@ export function buildTradeSearchUrl(statIds: string[]) {
     query: {
       stats: [
         {
-          type: 'weight',
+          type: 'and',
           filters,
-          disabled: false,
-          value: {
-            min: 1,
-          },
         },
       ],
       status: {
-        option: 'online',
+        option: 'securable',
       },
     },
     sort: {
