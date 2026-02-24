@@ -1,3 +1,4 @@
+import Button from './Button'
 import PanelCard from './PanelCard'
 import PanelHeader from './PanelHeader'
 
@@ -25,15 +26,14 @@ export default function AuraPanel({
         title="Auras"
         rightSlot={
           selectedAuras.length > 0 && (
-            <button
+            <Button
+              dark={dark}
+              variant="outline"
+              size="sm"
               onClick={onClearAuras}
-              className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${dark
-                  ? 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
-                  : 'border-stone-300 text-stone-600 hover:border-stone-500 hover:text-stone-800'
-                }`}
             >
               Clear
-            </button>
+            </Button>
           )
         }
       />

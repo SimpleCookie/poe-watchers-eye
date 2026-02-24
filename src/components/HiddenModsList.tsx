@@ -1,3 +1,5 @@
+import Button from './Button'
+
 type HiddenModsListProps = {
   dark: boolean
   hiddenMods: string[]
@@ -25,17 +27,15 @@ export default function HiddenModsList({ dark, hiddenMods, onUnhideMod }: Hidden
             <p className={`flex-1 text-xs line-through ${dark ? 'text-zinc-600' : 'text-stone-400'}`}>
               {label}
             </p>
-            <button
+            <Button
+              dark={dark}
+              variant="outline"
+              size="xs"
               onClick={() => onUnhideMod(id)}
               title="Unhide"
-              className={`shrink-0 text-[11px] px-2 py-0.5 rounded-full border transition-colors ${
-                dark
-                  ? 'border-zinc-700 text-zinc-500 hover:text-zinc-200 hover:border-zinc-500'
-                  : 'border-stone-300 text-stone-400 hover:text-stone-700 hover:border-stone-500'
-              }`}
             >
               ↩ unhide
-            </button>
+            </Button>
           </li>
         )
       })}

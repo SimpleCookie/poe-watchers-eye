@@ -1,3 +1,4 @@
+import Button from './Button'
 import ModCard from './ModCard'
 import HiddenModsList from './HiddenModsList'
 import PanelCard from './PanelCard'
@@ -44,15 +45,15 @@ export default function ModsPanel({
         rightSlot={
           <div className="flex items-center gap-3">
           {hiddenMods.length > 0 && (
-            <button
+            <Button
+              dark={dark}
+              variant="ghost"
+              size="sm"
               onClick={onToggleShowHiddenMods}
-              className={`text-xs flex items-center gap-1 ${
-                dark ? 'text-zinc-500 hover:text-zinc-300' : 'text-stone-500 hover:text-stone-700'
-              }`}
             >
               <span>{showHiddenMods ? '▾' : '▸'}</span>
               Hidden ({hiddenMods.length})
-            </button>
+            </Button>
           )}
           <div className={`text-xs ${dark ? 'text-zinc-600' : 'text-stone-500'}`}>
             {visibleCount} shown

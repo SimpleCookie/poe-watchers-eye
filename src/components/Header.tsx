@@ -1,3 +1,5 @@
+import Button from './Button'
+
 type HeaderProps = {
   dark: boolean
   onToggleDark: () => void
@@ -24,16 +26,16 @@ export default function Header({ dark, onToggleDark }: HeaderProps) {
           </p>
         </div>
 
-        <button
+        <Button
+          dark={dark}
+          variant="icon"
+          size="icon"
+          rounded="round"
           onClick={onToggleDark}
           aria-label="Toggle theme"
-          className={`w-9 h-9 rounded-full flex items-center justify-center text-sm shrink-0 border transition-all ${dark
-              ? 'bg-zinc-800 border-zinc-700 text-amber-300 hover:bg-zinc-700'
-              : 'bg-white border-stone-300 text-stone-500 hover:bg-stone-50 shadow-sm'
-            }`}
         >
           {dark ? '☀' : '☾'}
-        </button>
+        </Button>
       </div>
     </header>
   )
