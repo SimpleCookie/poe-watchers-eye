@@ -1,3 +1,6 @@
+import PanelCard from './PanelCard'
+import PanelHeader from './PanelHeader'
+
 type AuraPanelProps = {
   dark: boolean
   selectedAuras: string[]
@@ -16,29 +19,24 @@ export default function AuraPanel({
   onClearAuras,
 }: AuraPanelProps) {
   return (
-    <section
-      className={`rounded-2xl border p-5 ${dark ? 'bg-zinc-900 border-zinc-800' : 'bg-white border-stone-200 shadow-sm'
-        }`}
-    >
-      <div className="flex items-center justify-between mb-4">
-        <span
-          className={`text-[11px] font-bold uppercase tracking-widest ${dark ? 'text-zinc-500' : 'text-stone-600'
-            }`}
-        >
-          Auras
-        </span>
-        {selectedAuras.length > 0 && (
-          <button
-            onClick={onClearAuras}
-            className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${dark
-                ? 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
-                : 'border-stone-300 text-stone-600 hover:border-stone-500 hover:text-stone-800'
-              }`}
-          >
-            Clear
-          </button>
-        )}
-      </div>
+    <PanelCard dark={dark}>
+      <PanelHeader
+        dark={dark}
+        title="Auras"
+        rightSlot={
+          selectedAuras.length > 0 && (
+            <button
+              onClick={onClearAuras}
+              className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${dark
+                  ? 'border-zinc-700 text-zinc-400 hover:border-zinc-500 hover:text-zinc-200'
+                  : 'border-stone-300 text-stone-600 hover:border-stone-500 hover:text-stone-800'
+                }`}
+            >
+              Clear
+            </button>
+          )
+        }
+      />
 
       <div className="space-y-3">
         {(['offensive', 'defensive'] as const).map((type) => (
@@ -74,6 +72,6 @@ export default function AuraPanel({
           </div>
         ))}
       </div>
-    </section>
+    </PanelCard>
   )
 }

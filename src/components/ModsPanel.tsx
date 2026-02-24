@@ -1,5 +1,7 @@
 import ModCard from './ModCard'
 import HiddenModsList from './HiddenModsList'
+import PanelCard from './PanelCard'
+import PanelHeader from './PanelHeader'
 import type { WatcherEyeMod } from '../types/watcherEye'
 import { getModId } from '../utils/modFormat'
 
@@ -35,20 +37,12 @@ export default function ModsPanel({
   onUnhideMod,
 }: ModsPanelProps) {
   return (
-    <section
-      className={`rounded-2xl border p-5 ${
-        dark ? 'bg-zinc-900 border-zinc-800' : 'bg-white border-stone-200 shadow-sm'
-      }`}
-    >
-      <div className="flex items-center justify-between mb-4">
-        <span
-          className={`text-[11px] font-bold uppercase tracking-widest ${
-            dark ? 'text-zinc-500' : 'text-stone-600'
-          }`}
-        >
-          Mods
-        </span>
-        <div className="flex items-center gap-3">
+    <PanelCard dark={dark}>
+      <PanelHeader
+        dark={dark}
+        title="Mods"
+        rightSlot={
+          <div className="flex items-center gap-3">
           {hiddenMods.length > 0 && (
             <button
               onClick={onToggleShowHiddenMods}
@@ -64,8 +58,9 @@ export default function ModsPanel({
             {visibleCount} shown
             {selectedCount > 0 && <span className="ml-2 font-semibold text-amber-400">· {selectedCount} pinned</span>}
           </div>
-        </div>
-      </div>
+          </div>
+        }
+      />
 
       <ul className="space-y-2">
         {visibleMods.map((modEntry) => {
@@ -88,6 +83,6 @@ export default function ModsPanel({
       {showHiddenMods && (
         <HiddenModsList dark={dark} hiddenMods={hiddenMods} onUnhideMod={onUnhideMod} />
       )}
-    </section>
+    </PanelCard>
   )
 }
