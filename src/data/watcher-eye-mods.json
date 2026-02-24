@@ -1,0 +1,1096 @@
+[
+  {
+    "aura": "Determination",
+    "mod": "#% additional Physical Damage Reduction while affected by Determination",
+    "ranges": [
+      {
+        "min": 5,
+        "max": 8
+      }
+    ],
+    "tags": [
+      "physical"
+    ]
+  },
+  {
+    "aura": "Determination",
+    "mod": "+#% Chance to Block Attack Damage while affected by Determination",
+    "ranges": [
+      {
+        "min": 5,
+        "max": 8
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Determination",
+    "mod": "Unaffected by Vulnerability while affected by Determination",
+    "ranges": [],
+    "tags": [
+      "caster",
+      "curse"
+    ]
+  },
+  {
+    "aura": "Determination",
+    "mod": "You take #% reduced Extra Damage from Critical Strikes while affected by Determination",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 60
+      }
+    ],
+    "tags": [
+      "critical"
+    ]
+  },
+  {
+    "aura": "Determination",
+    "mod": "#% reduced Reflected Physical Damage taken while affected by Determination",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 50
+      }
+    ],
+    "tags": [
+      "physical"
+    ]
+  },
+  {
+    "aura": "Determination",
+    "mod": "+# to Armour while affected by Determination",
+    "ranges": [
+      {
+        "min": 600,
+        "max": 1000
+      }
+    ],
+    "tags": [
+      "defences",
+      "armour"
+    ]
+  },
+  {
+    "aura": "Grace",
+    "mod": "+#% chance to Evade Attack Hits while affected by Grace",
+    "ranges": [
+      {
+        "min": 5,
+        "max": 8
+      }
+    ],
+    "tags": [
+      "defences",
+      "evasion"
+    ]
+  },
+  {
+    "aura": "Grace",
+    "mod": "+#% chance to Suppress Spell Damage while affected by Grace",
+    "ranges": [
+      {
+        "min": 12,
+        "max": 15
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Grace",
+    "mod": "Unaffected by Enfeeble while affected by Grace",
+    "ranges": [],
+    "tags": [
+      "caster",
+      "curse"
+    ]
+  },
+  {
+    "aura": "Grace",
+    "mod": "#% increased Movement Speed while affected by Grace",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "speed"
+    ]
+  },
+  {
+    "aura": "Grace",
+    "mod": "#% chance to Blind Enemies which Hit you while affected by Grace",
+    "ranges": [
+      {
+        "min": 30,
+        "max": 50
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Discipline",
+    "mod": "Regenerate #% of Energy Shield per Second while affected by Discipline",
+    "ranges": [
+      {
+        "min": 1.5,
+        "max": 2.5
+      }
+    ],
+    "tags": [
+      "defences",
+      "energy_shield"
+    ]
+  },
+  {
+    "aura": "Discipline",
+    "mod": "+#% Chance to Block Spell Damage while affected by Discipline",
+    "ranges": [
+      {
+        "min": 5,
+        "max": 8
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Discipline",
+    "mod": "#% faster start of Energy Shield Recharge while affected by Discipline",
+    "ranges": [
+      {
+        "min": 30,
+        "max": 40
+      }
+    ],
+    "tags": [
+      "defences",
+      "energy_shield"
+    ]
+  },
+  {
+    "aura": "Discipline",
+    "mod": "Gain # Energy Shield per Enemy Hit while affected by Discipline",
+    "ranges": [
+      {
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "tags": [
+      "defences",
+      "energy_shield"
+    ]
+  },
+  {
+    "aura": "Discipline",
+    "mod": "#% increased Energy Shield Recovery Rate while affected by Discipline",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "defences",
+      "energy_shield"
+    ]
+  },
+  {
+    "aura": "Wrath",
+    "mod": "Damage Penetrates #% Lightning Resistance while affected by Wrath",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Wrath",
+    "mod": "#% of Lightning Damage is Leeched as Energy Shield while affected by Wrath",
+    "ranges": [
+      {
+        "min": 1,
+        "max": 1.5
+      }
+    ],
+    "tags": [
+      "defences",
+      "energy_shield",
+      "elemental",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Wrath",
+    "mod": "Gain #% of Physical Damage as Extra Lightning Damage while affected by Wrath",
+    "ranges": [
+      {
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "tags": [
+      "damage",
+      "physical",
+      "elemental",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Wrath",
+    "mod": "#% of Physical Damage Converted to Lightning Damage while affected by Wrath",
+    "ranges": [
+      {
+        "min": 25,
+        "max": 40
+      }
+    ],
+    "tags": [
+      "damage",
+      "physical",
+      "elemental",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Wrath",
+    "mod": "#% increased Lightning Damage while affected by Wrath",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 60
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Wrath",
+    "mod": "#% increased Critical Strike Chance while affected by Wrath",
+    "ranges": [
+      {
+        "min": 70,
+        "max": 100
+      }
+    ],
+    "tags": [
+      "critical"
+    ]
+  },
+  {
+    "aura": "Anger",
+    "mod": "Damage Penetrates #% Fire Resistance while affected by Anger",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "fire"
+    ]
+  },
+  {
+    "aura": "Anger",
+    "mod": "#% of Fire Damage Leeched as Life while affected by Anger",
+    "ranges": [
+      {
+        "min": 1,
+        "max": 1.5
+      }
+    ],
+    "tags": [
+      "life",
+      "elemental",
+      "fire"
+    ]
+  },
+  {
+    "aura": "Anger",
+    "mod": "Gain #% of Physical Damage as Extra Fire Damage while affected by Anger",
+    "ranges": [
+      {
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "tags": [
+      "damage",
+      "physical",
+      "elemental",
+      "fire"
+    ]
+  },
+  {
+    "aura": "Anger",
+    "mod": "#% of Physical Damage Converted to Fire Damage while affected by Anger",
+    "ranges": [
+      {
+        "min": 25,
+        "max": 40
+      }
+    ],
+    "tags": [
+      "damage",
+      "physical",
+      "elemental",
+      "fire"
+    ]
+  },
+  {
+    "aura": "Anger",
+    "mod": "#% increased Fire Damage while affected by Anger",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 60
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "fire"
+    ]
+  },
+  {
+    "aura": "Anger",
+    "mod": "+#% to Critical Strike Multiplier while affected by Anger",
+    "ranges": [
+      {
+        "min": 30,
+        "max": 50
+      }
+    ],
+    "tags": [
+      "damage",
+      "critical"
+    ]
+  },
+  {
+    "aura": "Hatred",
+    "mod": "Damage Penetrates #% Cold Resistance while affected by Hatred",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "cold"
+    ]
+  },
+  {
+    "aura": "Hatred",
+    "mod": "+#% to Critical Strike Chance while affected by Hatred",
+    "ranges": [
+      {
+        "min": 1.2,
+        "max": 1.8
+      }
+    ],
+    "tags": [
+      "critical"
+    ]
+  },
+  {
+    "aura": "Hatred",
+    "mod": "Adds # to # Cold Damage while affected by Hatred",
+    "ranges": [
+      {
+        "min": 58,
+        "max": 70
+      },
+      {
+        "min": 88,
+        "max": 104
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "cold"
+    ]
+  },
+  {
+    "aura": "Hatred",
+    "mod": "#% of Physical Damage Converted to Cold Damage while affected by Hatred",
+    "ranges": [
+      {
+        "min": 25,
+        "max": 40
+      }
+    ],
+    "tags": [
+      "damage",
+      "physical",
+      "elemental",
+      "cold"
+    ]
+  },
+  {
+    "aura": "Hatred",
+    "mod": "#% increased Cold Damage while affected by Hatred",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 60
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "cold"
+    ]
+  },
+  {
+    "aura": "Vitality",
+    "mod": "#% of Damage leeched as Life while affected by Vitality",
+    "ranges": [
+      {
+        "min": 0.8,
+        "max": 1.2
+      }
+    ],
+    "tags": [
+      "life"
+    ]
+  },
+  {
+    "aura": "Vitality",
+    "mod": "Regenerate #% of Life per second while affected by Vitality",
+    "ranges": [
+      {
+        "min": 1,
+        "max": 1.5
+      }
+    ],
+    "tags": [
+      "life"
+    ]
+  },
+  {
+    "aura": "Vitality",
+    "mod": "#% increased Life Recovery Rate while affected by Vitality",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "life"
+    ]
+  },
+  {
+    "aura": "Vitality",
+    "mod": "Gain # Life per Enemy Hit while affected by Vitality",
+    "ranges": [
+      {
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "tags": [
+      "life"
+    ]
+  },
+  {
+    "aura": "Vitality",
+    "mod": "#% increased Life Recovery from Flasks while affected by Vitality",
+    "ranges": [
+      {
+        "min": 50,
+        "max": 70
+      }
+    ],
+    "tags": [
+      "life"
+    ]
+  },
+  {
+    "aura": "Clarity",
+    "mod": "Non-Channelling Skills have +# to Total Mana Cost while affected by Clarity",
+    "ranges": [
+      {
+        "min": -10,
+        "max": -5
+      }
+    ],
+    "tags": [
+      "mana"
+    ]
+  },
+  {
+    "aura": "Clarity",
+    "mod": "#% of Damage taken from Mana before Life while affected by Clarity",
+    "ranges": [
+      {
+        "min": 6,
+        "max": 10
+      }
+    ],
+    "tags": [
+      "life",
+      "mana"
+    ]
+  },
+  {
+    "aura": "Clarity",
+    "mod": "#% chance to Recover 10% of Mana when you use a Skill while affected by Clarity",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "mana"
+    ]
+  },
+  {
+    "aura": "Clarity",
+    "mod": "Gain #% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity",
+    "ranges": [
+      {
+        "min": 6,
+        "max": 10
+      }
+    ],
+    "tags": [
+      "defences",
+      "energy_shield"
+    ]
+  },
+  {
+    "aura": "Clarity",
+    "mod": "#% increased Mana Recovery Rate while affected by Clarity",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "mana"
+    ]
+  },
+  {
+    "aura": "Clarity",
+    "mod": "#% of Damage taken while affected by Clarity Recouped as Mana",
+    "ranges": [
+      {
+        "min": 15,
+        "max": 20
+      }
+    ],
+    "tags": [
+      "mana"
+    ]
+  },
+  {
+    "aura": "Haste",
+    "mod": "You gain Onslaught for 4 seconds on Kill while affected by Haste",
+    "ranges": [
+      {
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Haste",
+    "mod": "You have Phasing while affected by Haste",
+    "ranges": [],
+    "tags": []
+  },
+  {
+    "aura": "Haste",
+    "mod": "Unaffected by Temporal Chains while affected by Haste",
+    "ranges": [],
+    "tags": [
+      "caster",
+      "curse"
+    ]
+  },
+  {
+    "aura": "Haste",
+    "mod": "Debuffs on you expire #% faster while affected by Haste",
+    "ranges": [
+      {
+        "min": 15,
+        "max": 20
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Haste",
+    "mod": "#% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste",
+    "ranges": [
+      {
+        "min": 30,
+        "max": 50
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Purity of Fire",
+    "mod": "Immune to Ignite while affected by Purity of Fire",
+    "ranges": [],
+    "tags": [
+      "elemental",
+      "fire",
+      "ailment"
+    ]
+  },
+  {
+    "aura": "Purity of Fire",
+    "mod": "Unaffected by Burning Ground while affected by Purity of Fire",
+    "ranges": [],
+    "tags": []
+  },
+  {
+    "aura": "Purity of Fire",
+    "mod": "Unaffected by Flammability while affected by Purity of Fire",
+    "ranges": [],
+    "tags": [
+      "caster",
+      "curse"
+    ]
+  },
+  {
+    "aura": "Purity of Fire",
+    "mod": "#% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20
+      }
+    ],
+    "tags": [
+      "elemental",
+      "fire",
+      "cold",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Purity of Ice",
+    "mod": "Immune to Freeze while affected by Purity of Ice",
+    "ranges": [],
+    "tags": [
+      "elemental",
+      "cold",
+      "ailment"
+    ]
+  },
+  {
+    "aura": "Purity of Ice",
+    "mod": "Unaffected by Chilled Ground while affected by Purity of Ice",
+    "ranges": [],
+    "tags": []
+  },
+  {
+    "aura": "Purity of Ice",
+    "mod": "Unaffected by Frostbite while affected by Purity of Ice",
+    "ranges": [],
+    "tags": [
+      "caster",
+      "curse"
+    ]
+  },
+  {
+    "aura": "Purity of Ice",
+    "mod": "#% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20
+      }
+    ],
+    "tags": [
+      "elemental",
+      "fire",
+      "cold",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Purity of Lightning",
+    "mod": "Immune to Shock while affected by Purity of Lightning",
+    "ranges": [],
+    "tags": [
+      "elemental",
+      "lightning",
+      "ailment"
+    ]
+  },
+  {
+    "aura": "Purity of Lightning",
+    "mod": "Unaffected by Shocked Ground while affected by Purity of Lightning",
+    "ranges": [],
+    "tags": []
+  },
+  {
+    "aura": "Purity of Lightning",
+    "mod": "Unaffected by Conductivity while affected by Purity of Lightning",
+    "ranges": [],
+    "tags": [
+      "caster",
+      "curse"
+    ]
+  },
+  {
+    "aura": "Purity of Lightning",
+    "mod": "#% of Fire and Cold Damage taken as Lightning Damage while affected by Purity of Lightning",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 20
+      }
+    ],
+    "tags": [
+      "elemental",
+      "fire",
+      "cold",
+      "lightning"
+    ]
+  },
+  {
+    "aura": "Purity of Elements",
+    "mod": "Unaffected by Elemental Weakness while affected by Purity of Elements",
+    "ranges": [],
+    "tags": [
+      "caster",
+      "curse"
+    ]
+  },
+  {
+    "aura": "Purity of Elements",
+    "mod": "#% reduced Reflected Elemental Damage taken while affected by Purity of Elements",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 50
+      }
+    ],
+    "tags": [
+      "elemental"
+    ]
+  },
+  {
+    "aura": "Purity of Elements",
+    "mod": "+#% to Chaos Resistance while affected by Purity of Elements",
+    "ranges": [
+      {
+        "min": 30,
+        "max": 50
+      }
+    ],
+    "tags": [
+      "chaos",
+      "resistance"
+    ]
+  },
+  {
+    "aura": "Purity of Elements",
+    "mod": "+#% to all maximum Elemental Resistances while affected by Purity of Elements",
+    "ranges": [
+      {
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "tags": [
+      "elemental",
+      "resistance"
+    ]
+  },
+  {
+    "aura": "Precision",
+    "mod": "+#% to Critical Strike Multiplier while affected by Precision",
+    "ranges": [
+      {
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "tags": [
+      "damage",
+      "critical"
+    ]
+  },
+  {
+    "aura": "Precision",
+    "mod": "#% increased Attack Damage while affected by Precision",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 60
+      }
+    ],
+    "tags": [
+      "damage",
+      "attack"
+    ]
+  },
+  {
+    "aura": "Precision",
+    "mod": "Gain a Flask Charge when you deal a Critical Strike while affected by Precision",
+    "ranges": [],
+    "tags": [
+      "critical"
+    ]
+  },
+  {
+    "aura": "Precision",
+    "mod": "#% increased Attack Speed while affected by Precision",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "attack",
+      "speed"
+    ]
+  },
+  {
+    "aura": "Precision",
+    "mod": "Cannot be Blinded while affected by Precision",
+    "ranges": [],
+    "tags": []
+  },
+  {
+    "aura": "Pride",
+    "mod": "#% chance to deal Double Damage while using Pride",
+    "ranges": [
+      {
+        "min": 8,
+        "max": 12
+      }
+    ],
+    "tags": [
+      "damage"
+    ]
+  },
+  {
+    "aura": "Pride",
+    "mod": "Your Hits Intimidate Enemies for 4 seconds while you are using Pride",
+    "ranges": [
+      {
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Pride",
+    "mod": "#% increased Physical Damage while using Pride",
+    "ranges": [
+      {
+        "min": 40,
+        "max": 60
+      }
+    ],
+    "tags": [
+      "damage",
+      "physical"
+    ]
+  },
+  {
+    "aura": "Pride",
+    "mod": "25% chance to Impale Enemies on Hit with Attacks while using Pride",
+    "ranges": [
+      {
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "tags": [
+      "physical"
+    ]
+  },
+  {
+    "aura": "Pride",
+    "mod": "Impales you inflict last 2 additional Hits while using Pride",
+    "ranges": [
+      {
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "tags": [
+      "physical"
+    ]
+  },
+  {
+    "aura": "Malevolence",
+    "mod": "#% increased Recovery rate of Life and Energy Shield while affected by Malevolence",
+    "ranges": [
+      {
+        "min": 8,
+        "max": 12
+      }
+    ],
+    "tags": [
+      "life",
+      "defences",
+      "energy_shield"
+    ]
+  },
+  {
+    "aura": "Malevolence",
+    "mod": "Unaffected by Poison while affected by Malevolence",
+    "ranges": [],
+    "tags": [
+      "chaos",
+      "ailment"
+    ]
+  },
+  {
+    "aura": "Malevolence",
+    "mod": "Unaffected by Bleeding while affected by Malevolence",
+    "ranges": [],
+    "tags": [
+      "physical",
+      "attack",
+      "ailment"
+    ]
+  },
+  {
+    "aura": "Malevolence",
+    "mod": "Damaging Ailments you inflict deal Damage #% faster while affected by Malevolence",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "damage",
+      "ailment"
+    ]
+  },
+  {
+    "aura": "Malevolence",
+    "mod": "+#% to Damage over Time Multiplier while affected by Malevolence",
+    "ranges": [
+      {
+        "min": 18,
+        "max": 22
+      }
+    ],
+    "tags": [
+      "damage"
+    ]
+  },
+  {
+    "aura": "Zealotry",
+    "mod": "Critical Strikes Penetrate #% of Enemy Elemental Resistances while affected by Zealotry",
+    "ranges": [
+      {
+        "min": 8,
+        "max": 10
+      }
+    ],
+    "tags": [
+      "damage",
+      "elemental",
+      "critical"
+    ]
+  },
+  {
+    "aura": "Zealotry",
+    "mod": "#% increased Cast Speed while affected by Zealotry",
+    "ranges": [
+      {
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "tags": [
+      "caster",
+      "speed"
+    ]
+  },
+  {
+    "aura": "Zealotry",
+    "mod": "Effects of Consecrated Ground you create while affected by Zealotry Linger for # seconds",
+    "ranges": [
+      {
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Zealotry",
+    "mod": "Consecrated Ground you create while affected by Zealotry causes enemies to take #% increased Damage",
+    "ranges": [
+      {
+        "min": 8,
+        "max": 10
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Zealotry",
+    "mod": "Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry",
+    "ranges": [
+      {
+        "min": 4,
+        "max": 4
+      }
+    ],
+    "tags": []
+  },
+  {
+    "aura": "Zealotry",
+    "mod": "30% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry",
+    "ranges": [
+      {
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "tags": [
+      "defences",
+      "energy_shield"
+    ]
+  },
+  {
+    "aura": "Zealotry",
+    "mod": "#% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry",
+    "ranges": [
+      {
+        "min": 100,
+        "max": 120
+      }
+    ],
+    "tags": [
+      "critical"
+    ]
+  }
+]
