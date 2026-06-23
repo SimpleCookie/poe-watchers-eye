@@ -12,6 +12,16 @@ export default function Header({ dark, onToggleDark }: HeaderProps) {
         }`}
     >
       <div className="max-w-3xl mx-auto px-5 py-4 flex items-center gap-4">
+        <a
+          href="https://devgroup.se/#projects"
+          aria-label="Back to DevGroup website"
+          className={`flex-shrink-0 flex items-center gap-1 text-xs font-medium no-underline transition-colors duration-150 ${
+            dark ? 'text-zinc-500 hover:text-[#ff6b35]' : 'text-stone-400 hover:text-[#ff6b35]'
+          }`}
+        >
+          <span aria-hidden="true">←</span>
+          <span className="hidden sm:inline">DevGroup.se</span>
+        </a>
         <div className="flex-1 min-w-0">
           <h1 className="text-lg font-bold tracking-tight leading-none">
             <span className="font-extrabold bg-gradient-to-r from-amber-300 to-yellow-500 bg-clip-text text-transparent">
